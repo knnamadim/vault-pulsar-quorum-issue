@@ -1,0 +1,6 @@
+2025-12-30T20:21:50Z vault-0 [INFO] Leader elected: vault-0
+2025-12-30T20:21:53Z vault-2 [INFO] Pod sealed
+2025-12-30T20:22:00Z vault-0 [WARN] Failed to append entry to vault-2 (sealed)
+2025-12-30T20:22:23Z vault-1 [INFO] Pod sealed
+2025-12-30T20:22:42Z vault-2 [INFO] Leader elected: vault-2
+2025-12-30T20:22:45Z vault-2 [WARN] Failed to append entry to vault-0 (sealed)

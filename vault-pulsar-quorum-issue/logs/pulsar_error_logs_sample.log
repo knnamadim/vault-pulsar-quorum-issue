@@ -1,0 +1,5 @@
+2025-12-30T20:21:55Z pulsar-proxy-0 [ERROR] Failed to authenticate token
+2025-12-30T20:22:01Z pulsar-broker-1 [ERROR] Failed to authenticate token
+2025-12-30T20:22:10Z pulsar-broker-0 [ERROR] Failed to authenticate token
+2025-12-30T20:22:45Z pulsar-proxy-1 [INFO] Authentication successful
+2025-12-30T20:22:50Z pulsar-broker-1 [INFO] Authentication successful

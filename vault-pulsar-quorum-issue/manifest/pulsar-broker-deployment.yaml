@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pulsar-broker
+  namespace: pulsar
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: pulsar-broker
+  template:
+    metadata:
+      labels:
+        app: pulsar-broker
+    spec:
+      containers:
+      - name: pulsar-broker
+        image: apachepulsar/pulsar:3.0.6
+        ports:
+        - containerPort: 6650
